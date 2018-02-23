@@ -2,11 +2,11 @@
   "name": "sapient_training",
   "version": "1.0.0",
   "description": "",
-  "main": "crunch.js",
+  "main": "pal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint combine.js",
-    "generate": "node combine.js",
+    "lint": "./node_modules/.bin/eslint pal.js",
+    "generate": "node pal.js",
     "start": "http-server"
   },
   "keywords": [],
