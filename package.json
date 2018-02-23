@@ -1,0 +1,23 @@
+{
+  "name": "sapient_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crunch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint combine.js",
+    "generate": "node combine.js",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.18.1",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
